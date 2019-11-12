@@ -1,5 +1,17 @@
-# Group9TP4
-Pour le TP4 nous avons décidé d'utilsier Python 3.5.2
+Python 3.5.2
+Librairie to import:
+  - pycrypto : 
+      install : pip3 install pycrypto
+  - fastecdsa : ( for elliptic curve)
+       install: pip3 install fastecdsa
+  - websocket : 
+      install : pip3 install websocket-client
+to execute the project : python3 startup.py
+In our file we have a file cyrpt.py which allowed us to encrypt and hasher our file
+Then we have a Key folder in which we have our public key of elliptic curve, as well as necessary key to validate a signature.
+Finally in the file File_to_use are our program.py file and data.txt basic non-encrypt, to recover them in case of problem.
+
+Python 3.5.2
 nous avons importer plusieur librairies:
   - pycrypto : 
       pour l'installer : pip3 install pycrypto
